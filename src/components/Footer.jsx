@@ -25,12 +25,12 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-gray-600">
               <li>
-                <a href="#" className="hover:text-purple-600">
+                <a href="#" className="hover:text-primary">
                   About
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-purple-600">
+                <a href="#" className="hover:text-primary">
                   Template Collection
                 </a>
               </li>
@@ -43,12 +43,12 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-gray-600">
               <li>
-                <a href="#" className="hover:text-purple-600">
+                <a href="#" className="hover:text-primary">
                   Help/FAQ
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-purple-600">
+                <a href="#" className="hover:text-primary">
                   Whatsapp
                 </a>
               </li>
@@ -61,22 +61,22 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-gray-600">
               <li>
-                <a href="#" className="hover:text-purple-600">
+                <a href="#" className="hover:text-primary">
                   Facebook
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-purple-600">
+                <a href="#" className="hover:text-primary">
                   Twitter
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-purple-600">
+                <a href="#" className="hover:text-primary">
                   Instagram
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-purple-600">
+                <a href="#" className="hover:text-primary">
                   Youtube
                 </a>
               </li>

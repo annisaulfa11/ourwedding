@@ -1,13 +1,19 @@
+import { useLocation } from "react-router-dom";
+import Footer from "./components/Footer"; 
 import Header from "./components/header";
-import Footer from "./components/Footer";
+
 
 const Layout = ({ children }) => {
+  const location = useLocation(); 
+
+  const hideHeaderFooter = location.pathname.includes("/preview");
+
   return (
-    <div>
-      <Header />  
-      <main>{children}</main>  
-      <Footer />
-    </div>
+    <>
+      {!hideHeaderFooter && <Header />}{" "}
+      <main>{children}</main>
+      {!hideHeaderFooter && <Footer />}{" "}
+    </>
   );
 };
 

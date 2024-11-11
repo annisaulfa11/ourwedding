@@ -10,11 +10,13 @@ export default {
         softblue: "#AEDEFC ",
       },
       height: {
-        '100' : '430px'
+        100: "430px",
       },
       fontFamily: {
-        'banner' : 'Dancing Script'
-      }
+        banner: "Dancing Script",
+        Parisienne: "Parisienne",
+        AbhayaLibre: "Abhaya Libre",
+      },
     },
   },
   plugins: [],
